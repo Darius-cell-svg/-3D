@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>ТехПром3D | 3D-печать и цифровое производство</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <a href="index.html" class="logo">ТЕХПРОМ<span>3D</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">Главная</a></li>
+                <li><a href="services.html" class="nav-link">Услуги</a></li>
+                <li><a href="hydroponics.html" class="nav-link">Гидропоника</a></li>
+                <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+                <li><a href="about.html" class="nav-link">О компании</a></li>
+                <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+            </ul>
+            <button class="btn-outline" id="callBtn">Связаться</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <h1>3D-печать, 3D-сканирование и изготовление деталей на заказ</h1>
+                <p class="hero-sub">Производим технические изделия, оснастку, гидропонные системы и комплектующие по образцу, чертежу или цифровой модели</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" id="getQuoteBtn">Получить расчёт</button>
+                    <a href="contacts.html" class="btn-secondary">Связаться с нами</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="directions">
+            <div class="container">
+                <h2 class="section-title">Направления деятельности</h2>
+                <div class="cards-grid" id="directionsGrid"></div>
+            </div>
+        </section>
+
+        <section class="capabilities">
+            <div class="container">
+                <h2 class="section-title">Производственные возможности</h2>
+                <div class="capabilities-grid" id="capabilitiesGrid"></div>
+            </div>
+        </section>
+
+        <section class="materials">
+            <div class="container">
+                <h2 class="section-title">Используемые материалы</h2>
+                <div class="materials-grid" id="materialsGrid"></div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="container">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <div class="advantages-grid" id="advantagesGrid"></div>
+            </div>
+        </section>
+
+        <section class="portfolio-preview">
+            <div class="container">
+                <h2 class="section-title">Портфолио</h2>
+                <div class="portfolio-grid" id="portfolioPreviewGrid"></div>
+                <div class="text-center" style="margin-top: 32px;">
+                    <a href="portfolio.html" class="btn-outline">Смотреть все проекты →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="request-form">
+            <div class="container">
+                <h2 class="section-title">Оставьте заявку на расчёт</h2>
+                <form id="orderForm" class="form-card">
+                    <input type="text" placeholder="Имя" id="name" required>
+                    <input type="tel" placeholder="Телефон" id="phone" required>
+                    <input type="email" placeholder="E-mail" id="email" required>
+                    <textarea placeholder="Описание задачи" id="task" rows="4"></textarea>
+                    <button type="submit" class="btn-primary">Получить расчёт</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 ТехПром3D — Цифровое производство и инжиниринг</p>
+            <p style="margin-top: 12px; font-size: 14px;">
+                <a href="tel:+79991234567" style="color: #9ca3af; margin: 0 10px;">+7 (999) 123-45-67</a>
+                <a href="mailto:info@tekhprom3d.ru" style="color: #9ca3af; margin: 0 10px;">info@tekhprom3d.ru</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
